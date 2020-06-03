@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    height: 90px;
+    background-color: rgb(165, 3, 187);
+}
+
+.icon1>a{
+    color: white;
+ 
+}
+
+.icon1>a:hover{
+    color: rgb(89, 1, 107);
+    transition: .3s;
+}
+
+#btn1:hover{
+    background-color: rgb(165, 3, 187);
+    color: white;
+}
+
+#img1{
+    margin-top: 20%;
+    
+}
+
+@media screen and (max-width:975px){
+    #he{
+        font-size: 32px !important;
+        text-align: center;
+    }
+    #he1{
+        font-size: 12px !important;
+        text-align: center;
+    }
+    #btn2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #btn1{
+        display: block;
+        margin-top: 2%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #img1{
+        width: 300px;
+        height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width:768px){
+    #img1{
+        display: none;
+    }
+}
+
+.bg.scrolled{
+    color: white;
+}
+
+
+.card-body>i{
+    color: rgb(233, 0, 70);
+    font-size: 72px;
+    margin-bottom: 7%;
+}
+
+@media screen and (max-width:576px){
+   #img3{
+       width: 200px;
+       height: 300px;
+       position: relative;
+       top: 70px;
+   }
+   #con{
+       display: none;
+   }
+}
+
+#icon3{
+    
+    background-color: white;
+    padding: 4%;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    box-shadow:
+    0 0 0 10px rgba(235, 235, 235, 0.3),
+    0 0 0 15px rgba(235,235,235,0.3);
+}
+
+ #zoom:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    
+ }
+
+ input{
+     width: 25%;
+     padding: 1%;
+     border-radius: 5px;
+     border: none;
+ }
+
+ #hea2:hover{
+    color: rgb(233, 0, 70);
+    cursor: pointer;
+    transition: 0.3s;  
+ }
+
+ #link1{
+     text-decoration: none;
+     color: white;
+     transition: 0.3s;
+ }
+ #link1:hover{
+    color: rgb(233, 0, 70)
+ }
+
+ #btn3{
+     border: 1px solid white;
+     color: white;
+ }
+
+ #btn3:hover{
+    color: rgb(233, 0, 70)
+ }
+
+ #icon4{
+     padding: 4%;
+     font-size: 32px;
+     color: white;
+ }
+
+ #icon4:hover{
+    color: rgb(233, 0, 70);
+    transition: 0.3s;
+    
+ }
+ 
